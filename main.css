@@ -1,0 +1,405 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    align-items: flex-start;
+}
+.box h2{
+    color: #b60014;
+    display: flex;
+    position: relative;
+    bottom: 12px;
+    left: 10px;
+}
+.box #select-language{
+    display: flex;
+    align-items: flex-end;
+} 
+.box_2{
+    width: 1800px;
+    height: 180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.btn_1 button{
+    width: 1800px;
+    height: 50px; 
+    background-color: #bd334a;
+    font-size: 19px;
+    color: white;
+    font-weight: 520;
+}
+.btn_1 button:hover{
+    background-color: #a3001b;
+}
+.btn_2 button{
+    width: 1800px;
+    height: 50px; 
+    background-color: #bd334a;
+    font-size: 19px;
+    color: white;
+    font-weight: 520;               
+}
+.btn_2 button:hover{
+    background-color: #a3001b;
+}
+.btn_3 button{
+    width: 1800px;
+    height: 50px; 
+    background-color: #bd334a;
+    font-size: 19px;
+    color: white;
+    font-weight: 520;
+}
+.btn_3 button:hover{
+    background-color: #a3001b;
+}
+.photo_one {
+    width: 1800px;
+    height: 695px;
+    margin: 0 auto;
+}
+.photo_one img{
+    width: 1800px;
+    height: 695px;
+}
+.photo_two {
+    width: 1800px;
+    height: 105px;
+    margin: 0 auto;
+}
+.photo_two img{
+    width: 1800px;
+    height: 105px;
+}
+.btn_4 {
+    width: 1800px;
+    height: 50px; 
+    margin: 0 auto;
+}
+.btn_4 button{
+    width: 1800px;
+    height: 50px; 
+    background-color: #333333;
+    font-size: 19px;
+    color: white;
+    font-weight: 520;
+}
+.btn_4 button:hover{
+    background-color: black;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid black;
+}
+.container h2{
+    font-size: 22px;
+    font-weight: 600;
+}
+.container .box_3{
+    width: 900px;
+    height: 30px;
+    display: flex; 
+    margin: 0 auto;
+}
+.container .btn_5 button{
+    width: 140px;
+    height: 35px;
+    font-size: 20px;
+    background: #00ac98;
+    margin-right: 8px;
+}
+.container .btn_6 button{
+    width: 140px;
+    height: 35px;
+    font-size: 20px;
+    background: #cccccc;
+}
+
+.container .btn_5 button:hover{
+    background: #12c2ad;
+}
+.container .btn_6 button:hover{
+    background: #12c2ad;
+}
+.container h1{
+    font-size: 22px;
+    color: #595959;
+    display: flex;
+    justify-content: center;
+}
+.container h5{
+    position: relative;
+    bottom: 15px;
+}
+.container .box_4{
+    width: 120px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #2aa469;
+    position: relative;
+    bottom: 30px;
+}
+.container .box_4 p{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.container h3{
+    position: relative;
+    bottom: 40px;
+}
+.container .box_7{
+    width: 120px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #f2c200;
+    position: relative;
+    bottom: 30px;
+}
+.container .box_7 p{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.container_two{
+    width: 800px;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 15px;
+}
+.container_two .btn_7{
+    display: flex;
+    justify-content: flex-end;
+}
+.container_two .btn_7 button {
+    width: 120px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: #00ac98;
+    color: white;
+}
+.container_two .btn_7 button:hover{
+    background-color: #1cd6c0;
+}
+.container_two .btn_8 button{
+    width: 350px;
+    height: 42px;
+    border-radius: 30px;
+    background-color: #333333;
+    color: white;
+    font-size: 18px;
+}
+.container_two .btn_8 button:hover{
+    background-color: black;
+}
+.container_two .btn_9 button{
+    width: 350px;
+    height: 42px;
+    border-radius: 30px;
+    background-color: #333333;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    left: 450px;
+    bottom: 40px;
+}
+.container_two .btn_9 button:hover{
+    background-color: black;
+}
+.container_two .btn_10 button{
+    width: 350px;
+    height: 42px;
+    border-radius: 30px;
+    background-color: #333333;
+    color: white;
+    font-size: 18px;
+}
+.container_two .btn_10 button:hover{
+    background-color: black;
+}
+.container_two .btn_11 button{
+    width: 350px;
+    height: 42px;
+    border-radius: 30px;
+    background-color: #333333;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    left: 450px;
+    bottom: 40px;
+}
+.container_two .btn_11 button:hover{
+    background-color: black;
+}
+.container_two .btn_12 button{
+    width: 350px;
+    height: 42px;
+    border-radius: 30px;
+    background-color: #333333;
+    color: white;
+    font-size: 18px;
+    position: relative;
+}
+.container_two .btn_12 button:hover{
+    background-color: black;
+}
+.container_three{
+    width: 835px;
+    height: 180px;
+    background-color: #dcdcdc;
+    margin: 0 auto;
+    display: flex;
+
+}
+.container_three h2{
+    position: relative;
+    left: 360px;
+    top: 20px;
+}
+.container_three .photo_1 img{
+    width: 200px;
+    height: 140px;
+    position: relative;
+    top: 30px;
+    left: 80px;
+}
+.container_three .photo_2 img{
+    width: 200px;
+    height: 140px;
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+.page_link{
+    width: 835px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.page_link .page_1 button{
+    width: 220px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #00ac98;
+    color: white;
+    font-size: 18px;
+}
+.page_link .page_2 button{
+    width: 220px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #00ac98;
+    font-size: 18px;
+    color: white;
+}
+.page_link .page_3 button{
+    width: 220px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #00ac98;
+    font-size: 18px;
+    color: white;
+}
+.page_link .page_1 button:hover{
+    background-color: #07d1ba;
+}
+.page_link .page_2 button:hover{
+    background-color: #07d1ba;
+}
+.page_link .page_3 button:hover{
+    background-color: #07d1ba;
+}
+.account{
+    width: 400px;
+    margin: 0 auto;
+}
+.account h4{
+    display: flex;
+    justify-content: center;
+}
+.account .facebook{
+    display: flex;
+}
+.account .facebook img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 95px;
+}
+.account .facebook p{
+    position: relative;
+    left: 95px;
+
+}
+.account .twitter{
+    display: flex;
+}
+.account .twitter img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 205px;
+    bottom: 50px;
+}
+.account .twitter p{
+    position: relative;
+    left: 205px;
+    bottom: 50px;
+   
+}
+.note{
+    width: 835px;
+    font-size: 10px;
+    margin: 0 auto;
+
+}
+.note img{
+    width: 60px;
+    height: 12px;
+  
+}
+.banner_area{
+    width: 750px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+footer{
+    width: 835px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+.contents-copyright{
+    position: relative;
+    left: 345px;
+}
+.footer_link{
+    width: 835px;
+    height: 40px;
+    background-color: black;
+}
+.footer_link ul{
+    list-style: none;
+}
+.footer_link ul li a{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 320px;
+
+}
+.site-copyright{
+    position: relative;
+    left: 325px;
+}

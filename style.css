@@ -1,0 +1,272 @@
+*{
+    font-family: 'ROBOTO' , sans-serif;
+}
+body{
+    background-image: url(1.png);
+    background-repeat: repeat-x; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    height: 950px;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: 0.3s;
+    
+}
+header nav a:hover{
+    color: #78b82a;
+    transition: 0.3s;
+}
+.codeBtn{
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    font-weight: 520;
+    font-size: 16px;
+    color: #78b82a;
+    border: 1px solid #78b82a;
+    background-color: transparent;
+
+}
+.codeBtn:hover{
+    background-color: #78b82a;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.codeBtn::before{
+    content: url(key.svg);
+    margin: 10px;
+   
+}
+.codeBtn:hover::before{
+    content: url(key\ \(3\).svg);
+}
+.User{
+    color: #00b0e1;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.User::before{
+    content: url(home.svg);
+    
+}
+.lang a{
+    width: 32px;
+    height: 15px;
+   text-decoration: none;
+    color: #fff;
+    padding: 5px;
+
+}
+.lang a:hover{
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+
+}
+.header_info_block{
+    display: flex;
+    height: 890px;
+}
+.header_info_block  .flash_info {
+    width: 533px;
+    height: 680px;
+    margin-top: 50px;
+}
+.header_info_block  .flash_info{
+     color: #fff;
+}
+.header_info_block  .flash_info h1{
+    font-size: 56px;
+    font-family: "TT Mussels", sans-serif, arial;
+}
+.header_info_block  .flash_info img{
+    width: 530PX;
+    height: 310px;
+    position: relative;
+    bottom: 60px;
+}
+.header_info_block  .flash_info span{
+    color: #78b82a;
+}
+.header_info_block  .flash_info b{
+    color: #00afdf;
+}
+.header_info_block  .flash_info h2{
+    width: 380px;
+    height: 36px;
+    color: black;
+    position: relative;
+    bottom: 30px;
+    padding: 6px;
+    font-size: 35px;
+    font-weight: 100;
+    background-color: #78b82a;
+    font-family:  "TT Mussels", sans-serif, arial;
+}
+.header_info_block  .flash_info p{
+    font-size: 31px;
+    position: relative;
+    bottom: 40px;
+}
+.header_info_block .flash_photo img{
+    height: 690px;
+    margin-top: 60px;
+    position: relative;
+    left: 200px;
+}
+.header_info_block .flash_photo hr{
+    width: 365px;
+    height: 2px;
+    position: relative;
+    bottom: 280px;
+    left: 115px;
+    background-color: #fff;
+}
+.header_info_block .flash_photo .m1{
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: #00b0e1;
+    position: relative;
+    bottom: 303px;
+    left: 253px;
+}
+
+.header_info_block .flash_photo .m2{
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 321px;
+    left: 259px;
+
+}
+.header_info_block .flash_photo .m3{
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    background-color: #fff;
+    position: relative;
+    bottom: 332px;
+    left: 620px;
+
+}
+.header_info_block .photo_bg img{
+    width: 664px;  
+    height: 640px;
+    position: relative;
+    bottom: 920px;
+    left: 55px; 
+
+}
+.header_info_block .photo_text{
+    width: 180px;
+    height: 85px;
+    position: relative;
+    bottom: 1113px;
+    border: 1px solid rgb(62, 62, 245);
+    box-shadow: 1px 1px 1px 1px rgb(201, 233, 255);
+    left: 530px;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+.header_info_block .photo_text p{
+    color: #00a1ce;
+    font-size: 14px;
+    position: relative;
+    top: 8px;
+}
+.header_info_block .photo_text span{
+    color: #fff;
+}
+.header_info_block .photo_text h6{
+    color: #00a1ce;
+    font-size: 13px;
+    position: relative;
+    left: 110px;
+    bottom: 16px;
+}
+.footer{
+    width: 884px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+    right: 525px;
+    top: 140px;
+}
+.footer .phone p{
+    color: white;
+    position: relative;
+    bottom: 130px;
+    left: 440px;
+}
+.footer .phone p::before{
+    content: url(phone-receiver-silhouette\ \(1\).png);
+    width: 20px;
+    height: 100px;
+    position: relative;
+    right: 7px;
+    top: 2px;
+}
+.gmail{
+    color: white;
+    position: relative;
+    bottom: 130px;
+    left: 455px;
+}
+
+.footer_icon {
+    width: 120px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 28px;
+    left: 500px;
+}
+.box p{
+    color: white;
+    position: relative;
+    bottom: 90px;
+    left: 730px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.box span{
+    color: black;
+}
+.box img{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    left: 1125px;
+    bottom: 195px;
+}
+.box_one p{
+    font-size: 10px;
+    color: white;
+    position: relative;
+    bottom: 195px;
+}
